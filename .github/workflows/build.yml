@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: dependencies
-        run: sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3
+        run: sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libdb++-dev
 
       - name: build
         run: |
